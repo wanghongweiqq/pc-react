@@ -1,0 +1,57 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,input,select,textarea,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, body,tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  font-weight: normal;
+}
+body{
+  font:normal 14px/1.5 "Microsoft YaHei","微软雅黑","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB",Arial,sans-serif;
+  color:#606266;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+  text-decoration:none;
+  cursor: pointer;
+}
+input:disabled,select:disabled{
+  background-color: #f5f7fa!important;
+  border-color: #e4e7ed!important;
+  color: #666!important;
+  cursor:not-allowed!important;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #c0c4cc;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #c0c4cc;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #c0c4cc;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #c0c4cc;
+}
+
+.clearfix{
+  *zoom:1;
+}
+.clearfix:after{
+  display: block;
+  content:'';
+  overflow: hidden;
+  clear: both;
+  visibility: hidden;
+}
+.hidden{
+  visibility: hidden;
+}
+.cursor-pointer{
+  cursor: pointer!important;
+}
