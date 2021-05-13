@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { withRouter, Link } from 'react-router-dom'
 
 class Detail extends Component {
-  render() {
+  render () {
     return (
       <div className="content">
         <div className="parent">
@@ -24,7 +24,7 @@ class Detail extends Component {
               query: {
                 a: 2
               },
-              search:'3'
+              search: '3'
             })
           }}>
             跳转page2
