@@ -1,7 +1,12 @@
 import React, { Component } from 'react'
 import { withRouter, Link } from 'react-router-dom'
-
+import PropTypes from 'prop-types'
 class Detail extends Component {
+  static propTypes = {
+    history: PropTypes.array,
+    children: PropTypes.node,
+  }
+
   render () {
     return (
       <div className="content">
