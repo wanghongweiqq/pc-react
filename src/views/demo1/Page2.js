@@ -1,18 +1,21 @@
 
-
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 export default class StatementManagement extends Component {
-  constructor(props) {
+  static propTypes = {
+    history: PropTypes.array,
+  }
+  constructor (props) {
     super(props)
     this.state = {
       a: props
     }
   }
-  componentDidMount() {
+  componentDidMount () {
     console.log('this.props')
     console.log(this.props)
   }
-  render() {
+  render () {
     return (
       <div>
         <p>Page2</p>

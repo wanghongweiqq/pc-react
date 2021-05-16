@@ -1,13 +1,16 @@
 
-
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 export default class Page3 extends Component {
+  static propTypes = {
+    history: PropTypes.array,
+  }
 
-  componentDidMount(props) {
+  componentDidMount (props) {
     console.log('this.props')
     console.log(this.props)
   }
-  render() {
+  render () {
     return (
       <div>
         <p>Page3 </p>

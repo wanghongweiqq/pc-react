@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .jsx,.js src/  --fix src/ --cache"
   },
   "eslintConfig": {
     "extends": [
@@ -44,13 +45,7 @@
     "lint-staged": "^11.0.0",
     "pre-commit": "^1.2.2"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "src/index.js": "eslint --ext .js"
-    // "**/*.vue": "eslint --ext .vue"
-  }
+  "pre-commit": [
+    "lint"
+  ]
 }
