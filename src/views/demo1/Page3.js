@@ -13,6 +13,15 @@ export default class Page3 extends Component {
     console.log('this.props')
     console.log(this.props)
   }
+  componentWillMount () {
+
+  }
+  componentWillUpdate () {
+
+  }
+  componentWillReceiveProps (next) {
+    console.log(next)
+  }
   render () {
     return (
       <div>
