@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 export default class StatementManagement extends Component {
   static propTypes = {
-    history: PropTypes.array,
+    history: PropTypes.object,
   }
   constructor (props) {
     super(props)

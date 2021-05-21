@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 export default class Page1 extends Component {
   static propTypes = {
-    history: PropTypes.array,
+    history: PropTypes.object,
   }
 
   componentDidMount (props) {
@@ -18,7 +18,7 @@ export default class Page1 extends Component {
           this.props.history.push({
             pathname: '/about/page2',
             query: {
-              a: 222222
+              a: 22222223
             },
           })
         }}>跳转page2</button>

@@ -3,7 +3,7 @@ import { withRouter, Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 class Detail extends Component {
   static propTypes = {
-    history: PropTypes.array,
+    history: PropTypes.object,
     children: PropTypes.node,
   }
 
