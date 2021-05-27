@@ -8,7 +8,8 @@ export default class StatementManagement extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      a: props
+      a: props,
+      b: [1, 2, 3]
     }
   }
   componentDidMount () {

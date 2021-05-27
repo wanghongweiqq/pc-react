@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { withRouter, Link } from 'react-router-dom'
+import { withRouter } from 'react-router-dom'
 import PropTypes from 'prop-types'
 class Detail extends Component {
   static propTypes = {
@@ -9,8 +9,8 @@ class Detail extends Component {
 
   render () {
     return (
-      <div className="content">
-        <div className="parent">
+      <div className='content'>
+        <div className='parent'>
           <p>公共部分</p>
           {/* <p><Link to="/about/page2">page2</Link></p>
           <p><Link to="/about/page3">page3</Link></p> */}
@@ -45,7 +45,7 @@ class Detail extends Component {
             跳转about3
           </button>
         </div>
-        <div className="children">
+        <div className='children'>
           {this.props.children}
         </div>
       </div>

@@ -1,7 +1,7 @@
-import layout from '../../layout';
-import Page1 from '../../views/demo1/Page1';
-import Page2 from '../../views/demo1/Page2';
-import Page3 from '../../views/demo1/Page3';
+import layout from '../../layout'
+import Page1 from '../../views/demo1/Page1'
+import Page2 from '../../views/demo1/Page2'
+import Page3 from '../../views/demo1/Page3'
 
 const demo1 = {
   path: 'about',

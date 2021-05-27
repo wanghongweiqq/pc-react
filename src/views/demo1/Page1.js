@@ -6,7 +6,7 @@ export default class Page1 extends Component {
     history: PropTypes.object,
   }
 
-  componentDidMount (props) {
+  componentDidMount () {
     console.log('this.props')
     console.log(this.props)
   }

@@ -9,7 +9,7 @@ export default class Page3 extends Component {
     history: [],
   }
 
-  componentDidMount (props) {
+  componentDidMount () {
     console.log('this.props')
     console.log(this.props)
   }
